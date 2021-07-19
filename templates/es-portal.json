@@ -396,7 +396,7 @@
               "visible": true,
               "options": {
                 "icon": "Info",
-                "text": "Enterprise Scale allows you to enable hybrid connectivity with on premises using Hub & Spoke topology. Please note, all connectivity components required will be deployed to the Platform Subscription.",
+                "text": "Enables basic network setup with an empty Virtual Network. Please note, all connectivity components required will be deployed to the Platform Subscription.",
                 "uri": "https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/Readme.md"
               }
             },
