@@ -1,0 +1,15 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Management Group'
+    azureResourceManagerConnection: 'MsAudit'
+    location: 'Canada Central'
+    templateLocation: 'Linked artifact'
+    csmFile: 'https://raw.githubusercontent.com/assemblyinc/azure-foundation/master/templates/es-portal.json'
+    deploymentMode: 'Incremental'
