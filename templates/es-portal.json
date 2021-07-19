@@ -3,7 +3,7 @@
   "view": {
     "kind": "Form",
     "properties": {
-      "title": "Enterprise-Scale Landing Zones",
+      "title": "Assembly Enterprise-Scale Landing Zones",
       "steps": [
         {
           "name": "basics",
@@ -17,7 +17,7 @@
         },
         {
           "name": "lzSettings",
-          "label": "Enterprise-Scale company prefix",
+          "label": "Company prefix",
           "subLabel": {
             "preValidation": "Provide a company prefix for the management group structure that will be created.",
             "postValidation": "Done"
