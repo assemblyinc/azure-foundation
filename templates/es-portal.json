@@ -382,7 +382,7 @@
           ]
         },
         {
-          "name": "esConnectivityGoalState",
+          "name": "esConnectivityBasicGoalState",
           "label": "Connectivity (Basic)",
           "subLabel": {
             "preValidation": "Select 'Yes' if goal state should be enforced during deployment. Select 'No' if you want to do it post deployment using Azure Policy.",
